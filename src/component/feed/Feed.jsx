@@ -1,4 +1,4 @@
-import  './feed.css'
+import './feed.css'
 
 const Feed = () => {
   return (

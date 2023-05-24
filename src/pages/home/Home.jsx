@@ -1,12 +1,15 @@
 import React from 'react'
 import Topbar from '../../component/topbar/Topbar'
-import sidebar from '../../src/component/sidebar/sidebar'
+import Feed from '../../component/feed/Feed'
+import Sidebar from '../../component/sidebar/Sidebar'
 
 const Home = () => {
   return (
     <div>
-        <Topbar/>
-        <sidebar/>
+      <>
+        <Topbar />
+        <Sidebar />
+      </>
     </div>
   )
 }
