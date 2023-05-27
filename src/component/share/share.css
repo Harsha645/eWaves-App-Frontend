@@ -1,5 +1,5 @@
 .share {
-    width: 100%;
+    width: 95%;
     height: 150px;
     border-radius: 10px;
     -webkit-box-shadow: -1px -1px 9px 1px rgba(0, 0, 0, 0.67);
@@ -64,4 +64,15 @@
 .shareOptionText{
     font-size: 16px;
     font-weight: 500;
+}
+.shareButton{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(7, 91, 236);
+    font-weight: 600;
+    color: white;
+    margin-left: 20px;
+    width: 70px;
+    cursor: pointer;
 }
