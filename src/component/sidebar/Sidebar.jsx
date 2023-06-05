@@ -1,8 +1,10 @@
 import './sidebar.css'
-import { MdRssFeed,MdGroup,MdWorkOutline,MdOutlineEvent } from 'react-icons/md'
-import { BsFillChatLeftTextFill,BsFillBookmarksFill,BsQuestionOctagonFill } from 'react-icons/bs'
+import { MdRssFeed, MdGroup, MdWorkOutline, MdOutlineEvent } from 'react-icons/md'
+import { BsFillChatLeftTextFill, BsFillBookmarksFill, BsQuestionOctagonFill } from 'react-icons/bs'
 import { AiFillPlayCircle } from 'react-icons/ai'
 import { GiDiploma } from 'react-icons/gi'
+import { Users } from '../../dummyData'
+import CloseFriend from '../closeFriend/CloseFriend'
 
 
 
@@ -47,39 +49,15 @@ const Sidebar = () => {
                         <GiDiploma className='sidebarIcon' />
                         <span className="sidebarListItemText">Courses</span>
                     </li>
-                    
+
                 </ul>
-                \<button className="sidebarButton">Show More</button>
+                <button className="sidebarButton">Show More</button>
                 <hr className="sidebarHr" />
                 <ul className="sidebarFriendList">
-                    <li className="sidebarFriend">
-                        <img src="src/assets/Capture.PNG" alt="" className="sidebarFriendImg" />
-                        <span className="sidebarFriendName">Lanka</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img src="src/assets/Capture.PNG" alt="" className="sidebarFriendImg" />
-                        <span className="sidebarFriendName">Lanka</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img src="src/assets/Capture.PNG" alt="" className="sidebarFriendImg" />
-                        <span className="sidebarFriendName">Lanka</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img src="src/assets/Capture.PNG" alt="" className="sidebarFriendImg" />
-                        <span className="sidebarFriendName">Lanka</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img src="src/assets/Capture.PNG" alt="" className="sidebarFriendImg" />
-                        <span className="sidebarFriendName">Lanka</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img src="src/assets/Capture.PNG" alt="" className="sidebarFriendImg" />
-                        <span className="sidebarFriendName">Lanka</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img src="src/assets/Capture.PNG" alt="" className="sidebarFriendImg" />
-                        <span className="sidebarFriendName">Lanka</span>
-                    </li>
+                    {Users.map((u) => (
+                        <CloseFriend key={u.id} user={u} />
+                    ))}
+
                 </ul>
             </div>
         </div>

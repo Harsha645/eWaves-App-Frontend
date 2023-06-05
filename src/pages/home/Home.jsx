@@ -11,11 +11,10 @@ const Home = () => {
         <Topbar />
         <div className="homeContainer">
           <Sidebar />
-          <Feed/>
-          <Rightbar/>
-          
-        </div>
+          <Feed />
+          <Rightbar />
 
+        </div>
       </>
     </div>
   )

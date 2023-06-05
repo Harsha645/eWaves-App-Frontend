@@ -30,6 +30,7 @@ const Share = () => {
                             <span className="shareOptionText">Feeling</span>
                         </div>
                     </div>
+                    <button className="shareButton">Share</button>
                 </div>
             </div>
         </div>
