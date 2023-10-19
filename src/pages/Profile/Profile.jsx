@@ -13,8 +13,8 @@ const Profile = () => {
                 <div className="profileRight">
                     <div className="profileRightRight">
                         <div className="profileCover">
-                            <img src="src/assets/posts/1.PNG" alt="" className="profileCoverImg" />
-                            <img src="src/assets/person/3.PNG" alt="" className="profileUserImg" />
+                            <img src="/assets/posts/1.PNG" alt="" className="profileCoverImg" />
+                            <img src="/assets/person/3.PNG" alt="" className="profileUserImg" />
                         </div>
                         <div className="profileInfo">
                             <h4 className="profileInfoName">Mahela Jayawardane</h4>
