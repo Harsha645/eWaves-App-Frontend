@@ -2,6 +2,7 @@ import './topbar.css'
 import { AiOutlineSearch } from 'react-icons/ai'
 import { BsFillPersonFill, BsFillChatFill } from 'react-icons/bs'
 import { MdNotifications } from 'react-icons/md'
+import Profile from '../../pages/Profile/Profile'
 
 
 
@@ -36,7 +37,7 @@ const Topbar = () => {
             <span className="topbarIconBadge">7</span>
           </div>
         </div>
-        <img src="src/assets/tokio.PNG" alt="" className="topbarImg" />
+        <img src="/assets/tokio.PNG" alt="" className="topbarImg" />
       </div>
     </div>
   )

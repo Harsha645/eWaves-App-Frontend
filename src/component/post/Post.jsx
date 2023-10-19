@@ -38,8 +38,8 @@ const Post = (Post) => {
                 </div>
                 <div className="postBottom">
                     <div className="postBottomLeft">
-                        <img src="src/assets/love.png" alt="" onClick={likeHandler} className="likeIcon" />
-                        <img src="src/assets/like.png" alt="" onClick={likeHandler} className="likeIcon" />
+                        <img src="/assets/love.png" alt="" onClick={likeHandler} className="likeIcon" />
+                        <img src="/assets/like.png" alt="" onClick={likeHandler} className="likeIcon" />
                         <span className="postLikeCounter">{like} people like this</span>
                     </div>
                     <div className="postBottomRight">
